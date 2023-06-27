@@ -23,7 +23,8 @@ button {
     color: #E5E7EB;
     background-color: #1F2937;
     font-size: 18px;
-    height: 75px;
+    flex: 0 0 20px;
+    padding-top: 25px;
 }
 
 .logo {
@@ -31,6 +32,7 @@ button {
     color: #F9FAF8;
     font-weight: bold;
     flex-basis: 200px;
+    white-space: nowrap;
 }
 
 .linkbox {
@@ -38,6 +40,7 @@ button {
     flex-basis: 650px;
     gap: 30px;
     justify-content: flex-end;
+    white-space: nowrap;
 }
 
 a {
@@ -63,7 +66,7 @@ a {
 .herobox {
     display: flex;
     flex-direction: column;
-    flex-basis: 400px;
+    flex: 0 0 400px;
     gap: 15px;
 }
 
@@ -88,11 +91,13 @@ a {
 }
 
 .section2head {
+    display: flex;
+    justify-content: center;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    text-align: center;
     padding: 40px;
+    white-space: nowrap;
 }
 
 .section2 .container {
@@ -122,9 +127,16 @@ p {
 .section3 {
     background: #E5E7EB;
     display: flex;
-    flex-direction: column;
+    height: 300px;
     justify-content: center;
-    padding: 10% 30% 10% 30%;
+}
+
+.section3 .container {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -132,13 +144,11 @@ p {
     font-size: 36px;
     font-weight: light;
     font-style: italic;
-    align-self: center;
 }
 
 .author {
     font-size: 24px;
     font-weight: light;
-    align-self: flex-end;
 }
 
 .footer {
