@@ -17,27 +17,29 @@ button {
 
 .header {
     display: flex;
-    gap: 100px;
+    gap: 10px;
     align-items: center;
     justify-content: center;
     color: #E5E7EB;
     background-color: #1F2937;
     font-size: 18px;
-    flex: 0 0 20px;
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 .logo {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: bold;
-    flex-basis: 200px;
-    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
 }
 
 .linkbox {
     display: flex;
-    flex-basis: 650px;
+    flex-basis: 700px;
     gap: 30px;
     justify-content: flex-end;
     white-space: nowrap;
@@ -137,18 +139,17 @@ p {
     width: 750px;
     justify-content: center;
     align-items: center;
+    font-weight: light;
 }
 
 
 .quote {
     font-size: 36px;
-    font-weight: light;
     font-style: italic;
 }
 
 .author {
     font-size: 24px;
-    font-weight: light;
 }
 
 .footer {
